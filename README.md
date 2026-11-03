@@ -67,6 +67,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 
 - **Notifications.** The Dock badge, bounce and sound work out of the box. Pop-up banners can be turned on in your profile card; without an Apple Developer signature macOS shows them through Script Editor, and clicking one still opens the message.
 - **Your data stays local.** Sections, drafts, reminders and link settings are kept on your Mac. Nothing is sent anywhere except your NAS, and Atlassian if you add a token.
+- **Updates.** Once a day Chat+ asks GitHub whether a newer release exists (it fetches release info only; nothing about you is sent). When there is one, it offers to open the download page; install it by replacing the app, and your settings and sign-in are kept. Use **Check for Updates…** in the app menu any time, or untick **Check for Updates Automatically**.
 - **Switching back.** ⌘⇧U toggles Synology's classic interface at any time.
 
 ## License
