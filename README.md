@@ -9,6 +9,10 @@
 
 Chat+ opens the Synology Chat web app from your own NAS and draws a new interface over it. Sign-in, messages, encryption and notifications stay with Synology; Chat+ only changes how they look and how fast you get around.
 
+### See it in action
+
+![Demo: ⌘T jumps to a conversation, ⌃Tab goes back, a Jira hover card, a shared HTML report opening in place, and the ticket picker](images/demo.gif)
+
 > Chat+ is an independent project. It is not made, endorsed or supported by Synology Inc. Synology and Synology Chat are trademarks of Synology Inc.
 
 ## Highlights
