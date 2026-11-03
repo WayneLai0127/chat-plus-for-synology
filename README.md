@@ -26,6 +26,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 **Keyboard first**
 - ⌘T jumps to any conversation, unread first · ⌃Tab cycles recent ones
 - ⌥↑ / ⌥↓ the conversation above or below · ⌥⇧↑ / ⌥⇧↓ the next one with something unread
+- ⌃⌥Space brings Chat+ forward from any app, with the switcher open (change or turn it off in your profile card)
 - ⌘F searches this conversation, ⇧⌘F everywhere (`from:` `in:` `has:`) · ⌘/ lists every shortcut
 
 **Links and previews**
@@ -35,6 +36,8 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 
 **Getting things done**
 - Schedule a message for later, set reminders on any message, slash commands as in Synology's own client
+- ⌘I shows a conversation's files and links (searchable, by type) and its members, and invites people
+- Right-click a message for quick reactions and every message action
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/switcher-dark.png">
@@ -69,7 +72,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 
 ## Good to know
 
-- **Notifications.** The Dock badge, bounce and sound work out of the box. Pop-up banners can be turned on in your profile card; without an Apple Developer signature macOS shows them through Script Editor, and clicking one still opens the message.
+- **Notifications.** The Dock badge, bounce and sound work out of the box. Allow Chat+ in **System Settings → Notifications** and new messages show as regular notifications with the Chat+ icon; clicking one opens that message. If macOS doesn't show them, turn on pop-up banners in your profile card: they then come through Script Editor, and clicking one still opens the message.
 - **Your data stays local.** Sections, drafts, reminders and link settings are kept on your Mac. Nothing is sent anywhere except your NAS, and Atlassian if you add a token.
 - **Updates.** Once a day Chat+ asks GitHub whether a newer release exists (it fetches release info only; nothing about you is sent). When there is one, it offers to open the download page; install it by replacing the app, and your settings and sign-in are kept. Use **Check for Updates…** in the app menu any time, or untick **Check for Updates Automatically**.
 - **Switching back.** ⌘⇧U toggles Synology's classic interface at any time.
