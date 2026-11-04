@@ -32,7 +32,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 **Links and previews**
 - Jira, Confluence, GitHub, Bitbucket, Google Docs and more become tidy chips; long URLs are shortened
 - Shared HTML pages, PDFs, CSV tables, audio and video open in place
-- With your own Atlassian token (optional): live ticket titles and status, hover cards, a ticket picker (type `PROJ-` to pick one of your issues), and the tickets mentioned in each conversation
+- With your own Atlassian token (optional): live ticket titles and status, hover cards, whole tickets in the side panel (hover a Jira chip and click its preview button: description, comments and images, next to the chat), a ticket picker (type `PROJ-` to pick one of your issues), and the tickets mentioned in each conversation
 
 **Getting things done**
 - Schedule a message for later, set reminders on any message, slash commands as in Synology's own client
@@ -54,7 +54,8 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 - The window only ever shows your NAS. Other links open in your browser.
 - You sign in on DSM's own page; Chat+ doesn't read or store your password.
 - Server and web-app updates from Synology reach Chat+ automatically.
-- The optional Atlassian token is encrypted with the macOS Keychain and sent only to your `*.atlassian.net`.
+- Your DSM sign-in is kept encrypted on disk with a key in your macOS Keychain.
+- The optional Atlassian token is encrypted the same way and sent only to the Atlassian site you saved it for.
 - Shared HTML pages open in a sandbox with no access to your session.
 
 ## Install
