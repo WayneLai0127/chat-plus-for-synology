@@ -27,16 +27,17 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 - ⌘T jumps to any conversation, unread first · ⌃Tab cycles recent ones
 - ⌥↑ / ⌥↓ the conversation above or below · ⌥⇧↑ / ⌥⇧↓ the next one with something unread
 - ⌃⌥Space brings Chat+ forward from any app, with the switcher open (change or turn it off in your profile card)
+- ⌘⇧T opens the threads you follow; arrows and Enter take you through them
 - ⌘F searches this conversation, ⇧⌘F everywhere (`from:` `in:` `has:`) · ⌘/ lists every shortcut
 
 **Links and previews**
 - Jira, Confluence, GitHub, Bitbucket, Google Docs and more become tidy chips; long URLs are shortened
 - Shared HTML pages, PDFs, CSV tables, audio and video open in place
-- With your own Atlassian token (optional): live ticket titles and status, hover cards, whole tickets in the side panel (hover a Jira chip and click its preview button: description, comments and images, next to the chat), a ticket picker (type `PROJ-` to pick one of your issues), and the tickets mentioned in each conversation
+- With your own Atlassian token (optional): live ticket titles and status, hover cards, whole tickets in the side panel (hover a Jira chip and click its preview button: description, comments and images, next to the chat), a ticket picker (type `PROJ-` to pick one of your issues, or paste an issue link: it becomes a card in your message, sent as the full link), and the tickets mentioned in each conversation
 
 **Getting things done**
 - Schedule a message for later, set reminders on any message, slash commands as in Synology's own client
-- ⌘I shows a conversation's files and links (searchable, by type) and its members, and invites people
+- ⌘I shows a conversation's files and links (searchable, by type) and its members, invites people, and lets you leave a channel
 - Right-click a message for quick reactions and every message action
 
 <picture>
