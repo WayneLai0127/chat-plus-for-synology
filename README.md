@@ -22,6 +22,8 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 - Your own sidebar sections (drag conversations in, fold to unread), drafts that survive restarts
 - Bot posts made of `Key: value` lines become cards; runs of bot posts fold together
 - A threads inbox across all conversations
+- Mentions show each person's picture and name; in the message box a mention is one piece, removed with one Backspace
+- See who's typing, with their pictures above the message box
 
 **Keyboard first**
 - ⌘T jumps to any conversation, unread first · ⌃Tab cycles recent ones
