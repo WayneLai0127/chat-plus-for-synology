@@ -4,7 +4,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/hero-dark.png">
-  <img alt="Chat+ for Synology: conversation with sections, a bot card, link chips and a Jira hover card" src="images/hero-light.png">
+  <img alt="Chat+ for Synology: conversation with sections, link chips, a highlighted code block and a Jira hover card" src="images/hero-light.png">
 </picture>
 
 Chat+ opens the Synology Chat web app from your own NAS and draws a new interface over it. Sign-in, messages, encryption and notifications stay with Synology; Chat+ only changes how they look and how fast you get around.
@@ -18,12 +18,13 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 ## Highlights
 
 **A calmer interface**
-- Message bubbles, a resizable sidebar, light and dark themes
+- Message bubbles or a compact layout, a resizable sidebar, light and dark themes
 - Your own sidebar sections (drag conversations in, fold to unread), drafts that survive restarts
 - Bot posts made of `Key: value` lines become cards; runs of bot posts fold together
 - A threads inbox across all conversations
 - Mentions show each person's picture and name; in the message box a mention is one piece, removed with one Backspace
 - See who's typing, with their pictures above the message box
+- Code blocks are syntax-highlighted: name the language (```` ```js ````, `sql`, `py`, `bash`…) or let Chat+ guess, and mark lines with ```` ```js {2-3} ````
 
 **Keyboard first**
 - ⌘T jumps to any conversation, unread first · ⌃Tab cycles recent ones
@@ -31,6 +32,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 - ⌃⌥Space brings Chat+ forward from any app, with the switcher open (change or turn it off in your profile card)
 - ⌘⇧T opens the threads you follow; arrows and Enter take you through them
 - ⌘F searches this conversation, ⇧⌘F everywhere (`from:` `in:` `has:`) · ⌘/ lists every shortcut
+- ⌘⇧J your downloads · ⌘⇧A your Synology apps
 
 **Links and previews**
 - Jira, Confluence, GitHub, Bitbucket, Google Docs and more become tidy chips; long URLs are shortened
@@ -41,6 +43,8 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 - Schedule a message for later, set reminders on any message, slash commands as in Synology's own client
 - ⌘I shows a conversation's files and links (searchable, by type) and its members, invites people, and lets you leave a channel
 - Right-click a message for quick reactions and every message action
+- Downloads go straight to your Downloads folder, with progress in the header and a list to pause, open or show in Finder
+- The Apps button opens Synology Drive, Calendar and your other DSM apps, like the classic App Launcher
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/switcher-dark.png">
