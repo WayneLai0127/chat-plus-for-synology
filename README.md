@@ -19,6 +19,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 
 **A calmer interface**
 - Message bubbles or a compact layout, a resizable sidebar, light and dark themes
+- Opens straight into the chat, without a white flash, in your Mac's language
 - Your own sidebar sections (drag conversations in, fold to unread), drafts that survive restarts
 - Bot posts made of `Key: value` lines become cards; runs of bot posts fold together
 - A threads inbox across all conversations
@@ -40,11 +41,17 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 - With your own Atlassian token (optional): live ticket titles and status, hover cards, whole tickets in the side panel (hover a Jira chip and click its preview button: description, comments and images, next to the chat), a ticket picker (type `PROJ-` to pick one of your issues, or paste an issue link: it becomes a card in your message, sent as the full link), and the tickets mentioned in each conversation
 
 **Getting things done**
-- Schedule a message for later, set reminders on any message, slash commands as in Synology's own client
+- Schedule a message for later, typing the time (`fri 10:00`, `tomorrow`, `30m`) or tabbing through the date, and set reminders on any message
+- Slash commands: `/schedule`, `/poll` (people vote with one click), `/collapse` for long conversations, `/purpose`, `/invite`, `/leave`, plus Synology's own
 - ⌘I shows a conversation's files and links (searchable, by type) and its members, invites people, and lets you leave a channel
 - Right-click a message for quick reactions and every message action
 - Downloads go straight to your Downloads folder, with progress in the header and a list to pause, open or show in Finder
 - The Apps button opens Synology Drive, Calendar and your other DSM apps, like the classic App Launcher
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/0.7.0/slash-dark.png">
+  <img alt="Typing / lists Synology's commands and the ones Chat+ adds, such as /schedule, /poll and /collapse" src="images/0.7.0/slash-light.png">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/switcher-dark.png">
