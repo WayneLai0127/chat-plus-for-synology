@@ -38,6 +38,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 **Links and previews**
 - Jira, Confluence, GitHub, Bitbucket, Google Docs and more become tidy chips; long URLs are shortened
 - Shared HTML pages, PDFs, CSV tables, audio and video open in place
+- GIFs: search GIPHY from the GIF button or `/gif`, and pasted GIPHY links play in the message
 - With your own Atlassian token (optional): live ticket titles and status, hover cards, whole tickets and Confluence pages in the side panel (hover a Jira or Confluence chip and click its preview button: the description or page, comments and images, next to the chat), a ticket picker (type `PROJ-` to pick one of your issues, or paste an issue link: it becomes a card in your message, sent as the full link), and the tickets mentioned in each conversation
 
 **Getting things done**
