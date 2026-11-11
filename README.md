@@ -20,7 +20,7 @@ Chat+ opens the Synology Chat web app from your own NAS and draws a new interfac
 **A calmer interface**
 - Message bubbles or a compact layout, a resizable sidebar, light and dark themes
 - Opens straight into the chat, without a white flash, in your Mac's language
-- Your own sidebar sections (drag conversations in, fold to unread), drafts that survive restarts
+- Your own sidebar sections (drag conversations in, fold to unread), and unread conversations at the top if you turn that on in Synology Chat; drafts that survive restarts
 - Bot posts made of `Key: value` lines become cards; runs of bot posts fold together
 - A threads inbox across all conversations
 - Mentions show each person's picture and name; in the message box a mention is one piece, removed with one Backspace
